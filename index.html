@@ -24,12 +24,12 @@ import { getStorage, ref, uploadBytes, getDownloadURL, deleteObject }
 //  ⚠️  PEGA AQUÍ TU CONFIGURACIÓN DE FIREBASE
 // ══════════════════════════════════════════════
 const firebaseConfig = {
-  apiKey:            "TU_API_KEY",
-  authDomain:        "TU_PROJECT.firebaseapp.com",
-  projectId:         "TU_PROJECT_ID",
-  storageBucket:     "TU_PROJECT.appspot.com",
-  messagingSenderId: "TU_SENDER_ID",
-  appId:             "TU_APP_ID"
+  apiKey: "AIzaSyAtnleDgBG-KZqUmLkEwJABuQiC7LWZnh8",
+  authDomain: "ventasonline-830d7.firebaseapp.com",
+  projectId: "ventasonline-830d7",
+  storageBucket: "ventasonline-830d7.firebasestorage.app",
+  messagingSenderId: "398642269197",
+  appId: "1:398642269197:web:7e9ae37a82a432788dd944"
 };
 // ══════════════════════════════════════════════
 
@@ -40,7 +40,7 @@ const stor = getStorage(app);
 
 // ── Email del admin (vendedora) ─────────────────
 // Crea este usuario en Firebase → Authentication → Add user
-const ADMIN_EMAIL = "vendedora@tiendaamericana.com";
+const ADMIN_EMAIL = "froyother@gmail.com";
 
 // Exponer al scope global para que el resto del código lo use
 window._fb = { auth, db, stor, ADMIN_EMAIL,
@@ -724,8 +724,8 @@ body{font-family:var(--fb);background:var(--bg);color:var(--ink);min-height:100v
 ══════════════════════════════════ -->
 <script>
 // ── Número de WhatsApp de la vendedora (con código país sin +) ──
-const WA_NUMBER = "528112345678"; // ← CAMBIA ESTE NÚMERO
-const STORE_NAME = "Tienda Americana"; // ← CAMBIA SI QUIERES
+const WA_NUMBER = "528123995845"; // ← CAMBIA ESTE NÚMERO
+const STORE_NAME = "VentasOnline"; // ← CAMBIA SI QUIERES
 
 // ── State ─────────────────────────────────────────────────────────
 let fb = null;
